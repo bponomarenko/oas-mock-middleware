@@ -1,0 +1,38 @@
+{
+  "name": "oas-mock-middleware",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bponomarenko/oas-mock-middleware.git"
+  },
+  "keywords": [
+    "oas",
+    "openapi",
+    "swagger",
+    "mock",
+    "mocks",
+    "mock-server",
+    "json-schema"
+  ],
+  "author": "Borys Ponomarenko <bponomarenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bponomarenko/oas-mock-middleware/issues"
+  },
+  "homepage": "https://github.com/bponomarenko/oas-mock-middleware#readme",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "json-schema-faker": "^0.5.0-rc15",
+    "json-schema-ref-parser": "^5.0.3",
+    "openapi-schema": "^1.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
